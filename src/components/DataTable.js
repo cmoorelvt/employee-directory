@@ -7,7 +7,6 @@ const DataTable = () => {
   const context = useContext(DataAreaContext);
 
   return (
-
     <div className="datatable mt-5">
       <table
         id="table"
@@ -22,7 +21,6 @@ const DataTable = () => {
                   key={name}
                   style={{ width }}
                   onClick={() => {
-                    // context.handleSort(name.toLowerCase());
                     context.handleSort(name);
                   }}
                 >

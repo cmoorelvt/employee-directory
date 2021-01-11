@@ -1,5 +1,4 @@
 import React, { useContext } from "react";
-import "../styles/SearchName.css";
 import DataAreaContext from "../utils/DataAreaContext";
 
 const SearchName = () => {
@@ -10,7 +9,7 @@ const SearchName = () => {
       <div className="input-group">
           <div className="input-group-prepend">
             <span className="input-group-text" id="">
-              Search
+            <i class="fas fa-search"></i>
             </span>
           </div>
           <input
